@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #1a00807d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.top-bar{
+    padding:4px;
+}
+header h1 {
+    font-size: 24px;
+}
+
+header h2 {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #1a00807d;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.box {
+    display: flex;
+    align-items: center; /* Align the content vertically */
+    justify-content: space-between; /* Add space between image and paragraph */
+    height: 478px;
+}
+
+#box-img {
+    width: 415px;
+    height: 347px;
+    border: 2px solid black;
+    margin: 45px;
+}
+
+#para {
+    flex: 1; /* Make the paragraph take the remaining space */
+    margin-right: 45px; /* Add some space between the image and the text */
+    font-family: 'Arial', sans-serif; /* Apply font family */
+    font-size: 18px; /* Set font size */
+    line-height: 1.6; /* Improve readability by adjusting line height */
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.latest-news {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.latest-news h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.latest-news ul {
+    list-style: none;
+    
+}
+
+.latest-news ul li {
+    margin-bottom: 8px;
+}
+
+.latest-news ul li a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.latest-news ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #1a00807d;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top:70px;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+footer .contact-info, .address {
+    width: 50%;
+}
+
+footer p {
+    margin-bottom: 5px;
+}
